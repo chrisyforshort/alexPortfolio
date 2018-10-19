@@ -170,6 +170,13 @@ nav {
     margin-top: -31px;
     margin-left: 38px;
 }
+#idTechLocation1 {
+    margin-left: 410px;
+}
+
+#harbordayLocation {
+    margin-left: 455px;
+}
 
 /* Portfolio CSS */
 .portfolioDiv {
@@ -191,12 +198,12 @@ nav {
 }
 
 .portfolioPic {
-    width: 343px;
-    height: 210px;
+    width: 533px;
+    height: 395px;
     z-index: 1;
     position: absolute;
-    left: 153px;
-    top: 135px;
+    left: 59px;
+    top: 50px;
 }
 
 /* Contact Section CSS */
@@ -564,93 +571,6 @@ nav {
         top: 9210px;
         position: absolute;
     }
-    
-    /* Interests Section CSS */
-    #interestsRow {
-        padding-bottom: 50px;
-    }
-
-    #interestTitleHeader {
-        margin-top: 90px;
-    }
-    
-    .interestLogo {
-        width: 110px;
-        height: 110px;
-        margin-top: 13px;
-    }
-
-    .interestDiv {
-        font-size: 16px;
-    }
-
-    #scubaDivingLogo {
-        margin-left: -70px;
-        margin-top: 120px;
-        position: absolute;
-    }
-
-    #sportsHeader {
-        margin-left: -40px;
-    }
-    
-    #scubaDiv {
-        margin-left: 70px;
-        width: 200px;
-    }
-
-    #entertainmentDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #entertainmentHeader {
-        margin-left: 17px;
-    }
-
-    #videoGamesLogo {
-        position: absolute;
-        margin-top: 130px;
-        margin-left: -20px;
-    }
-
-    #travelDiv {
-        width: 200px;
-        margin-left: 75px;
-    }
-
-    #travelHeader {
-        margin-left: -70px;
-    }
-
-    #travelLogo {
-        position: absolute;
-        margin-top: 125px;
-        margin-left: -65px;
-    }
-
-    #joDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #joHeader {
-        margin-left: -20px;
-        width: 350px;
-        margin-bottom: 50px;
-    }
-
-    #wu {
-        margin-left: -190px;
-        margin-top: 40px;
-        position: absolute;
-    }
-
-    #joLogo {
-        position: absolute;
-        margin-top: 145px;
-        margin-left: -25px;
-    }
 
     /* Contact Section CSS */
     #contactSection {
@@ -933,37 +853,6 @@ nav {
         margin-left: 40px;
         text-align: center;
     }
-
-    /* Skills Section CSS */
-    .card {
-        width: 105px;
-        height: 130px;
-        margin: 10px;
-        margin-bottom: 30px;
-    }
-    
-    .card-image {
-        height: 105px;
-        width: 105px;
-    }
-    
-    #cssPic {
-        height: 170px;
-        width: 315px;
-        left: -105px;
-    }
-    
-    #expressPic {
-        width: 90px;
-    }
-    
-    #handlebarsText {
-        margin-left: -16px;
-    }
-    
-    .cardNameDiv {
-        font-size: 12px;
-     }
     
     /* Portfolio CSS */
     .portfolioDiv {
@@ -1018,93 +907,6 @@ nav {
         top: 9210px;
         position: absolute;
     }
-    
-    /* Interests Section CSS */
-    #interestsRow {
-        padding-bottom: 50px;
-    }
-
-    #interestTitleHeader {
-        margin-top: 90px;
-    }
-    
-    .interestLogo {
-        width: 110px;
-        height: 110px;
-        margin-top: 13px;
-    }
-
-    .interestDiv {
-        font-size: 16px;
-    }
-
-    #scubaDivingLogo {
-        margin-left: -70px;
-        margin-top: 120px;
-        position: absolute;
-    }
-
-    #sportsHeader {
-        margin-left: -40px;
-    }
-    
-    #scubaDiv {
-        margin-left: 70px;
-        width: 200px;
-    }
-
-    #entertainmentDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #entertainmentHeader {
-        margin-left: 17px;
-    }
-
-    #videoGamesLogo {
-        position: absolute;
-        margin-top: 130px;
-        margin-left: -20px;
-    }
-
-    #travelDiv {
-        width: 200px;
-        margin-left: 75px;
-    }
-
-    #travelHeader {
-        margin-left: -70px;
-    }
-
-    #travelLogo {
-        position: absolute;
-        margin-top: 125px;
-        margin-left: -65px;
-    }
-
-    #joDiv {
-        width: 200px;
-        margin-left: -60px;
-    }
-
-    #joHeader {
-        margin-left: -20px;
-        width: 350px;
-        margin-bottom: 50px;
-    }
-
-    #wu {
-        margin-left: -190px;
-        margin-top: 40px;
-        position: absolute;
-    }
-
-    #joLogo {
-        position: absolute;
-        margin-top: 145px;
-        margin-left: -25px;
-    }
 
     /* Contact Section CSS */
     #contactSection {
@@ -1140,21 +942,6 @@ nav {
         height: 104px;
         padding-top: 4px;
         margin-bottom: 5px;
-    }
-    
-    #githubLogo {
-        width: 88px;
-        height: 88px;
-        padding-bottom: -10px;
-        padding-top: 3px; 
-        margin-left: 28px;
-    }
-    
-    #stackoverflowLogo {
-        width: 85px;
-        height: 85px;
-        padding-top: -30px;
-        margin-left: 20px;
     }
 
     #contactLogoRow {
