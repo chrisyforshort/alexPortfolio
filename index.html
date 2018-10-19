@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import style.css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Import Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex's Portfolio</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <div id="nav_bar" class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo waves-effect">Alexander Wu</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a class="waves-effect" href="#profileSection">Profile</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#experiencesSection">Accomplishments</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="#projectsSection">Projects</a>
+                    </li>
+                    <li>
+                        <a class="waves-effect contactNav" href="#contactSection">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li>
+                <a href="#profileSection">Profile</a>
+            </li>
+            <li>
+                <a href="#experiencesSection">Accomplishments</a>
+            </li>
+            <li>
+                <a href="#projectSection">Projects</a>
+            </li>
+            <li>
+                <a href="#interestsSection">Interests</a>
+            </li>
+            <li>
+                <a href="#contactSection">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Home Screen -->
+    <section class="overlay scrollspy" id="home">
+        <img id="homeImage" src="./assets/images/greek-mythology.jpg">
+        <div class="container nameDiv">
+            <h1 class="center-align name">Alexander Max Wu</h2>
+                <p class="center-align interactive">Portfolio</p>
+        </div>
+    </section>
+
+    <!-- Profile -->
+    <section class="scrollspy" id="profileSection">
+        <div class="divSpacing">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv" id="profileDiv">
+                    <h1 class="center-align">Profile</h1>
+                    <p class="center-align description">Middle Schooler & Seeker of Knowledge</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s2 center-align ">
+                    <div class="basicDiv">
+                        <h3 class="leftDiv">The Basics</h3>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Name:</span> Alexander Max Wu</p>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Location:</span> Irvine, CA</p>
+                        <p class="leftDiv left-align basicText">
+                            <span class="bold">Age:</span> 13</p>
+                    </div>
+                </div>
+                <div class="col s3 center-align">
+                    <img class="circle responsive img profilePic" src="./assets/images/IMG_3073.jpeg">
+                </div>
+                <div class="col s3 center-align">
+                    <h3 class="aboutMe">About Me</h3>
+                    <p class="paragraph aboutMe" id="aboutMePara">Alexander Wu is a Southern California native currently residing in Irvine, California. He has previously
+                        lived abroad in Shanghai, China. Alex has traveled to over 10 countries already.
+                        He has a strong interest in technology, the arts, and history. He currently attends Harbor Day School in Newport, California. 
+                        Alex enjoys playing volleyball, hangingout with his friends, and playing video games.
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="scrollspy" id="experiencesSection">
+        <div class="divSpacing tanDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv" id="experienceDiv">
+                    <h1 class="center-align" id="experienceHeader">Accomplishments</h1>
+                    <p class="description" id="experienceDescription">"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can
+                        the soul be strengthened, ambition inspired, and sucess achieved." - Helen Keller </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <!-- Education Section -->
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s10">
+                    <h2 class="experienceH2" id="eduTitle">Transcripts</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="uciDiv">
+                    <p class="achievementTitles">iD Tech Camps</p>
+                    <i id="idTechLocation" class="small material-icons achievementLocation">location_on</i><p class="locationSpan">University of California, Irvine</p>
+                    <img class="certificateImg" id="" src="./assets/images/certificates/idTech2015.png">
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="scDiv">
+                        <img class="certificateImg" id="" src="./assets/images/certificates/idTechUnreal2018.png">
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="purdueDiv">
+                        <img class="certificateImg" id="" src="./assets/images/certificates/idTechArtificial2018.png">
+                    </p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <!-- Work Experience Section -->
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s10">
+                    <h2 id="workHeader">Certificates</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="lexonetDiv">
+                        <p class="achievementTitles">National Geographic Bee</p>
+                        <i id="idTechLocation" class="small material-icons achievementLocation">location_on</i><p class="locationSpan">Harbor Day School</p>
+                        <img class="certificateImg" id="" src="./assets/images/certificates/nationalGeo.png">
+                    </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="superiorDiv">
+                        <p class="achievementTitles">UCI Gifted Students Network</p>
+                        <i id="idTechLocation" class="small material-icons achievementLocation">location_on</i><p class="locationSpan">University of California, Irvine</p>
+                        <img class="certificateImg" id="" src="./assets/images/certificates/uciGIftedStudent2016.png">
+                 </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="fargoDiv">
+                        <p class="achievementTitles">iD Tech Camps</p>
+                        <i id="idTechLocation" class="small material-icons achievementLocation">location_on</i><p class="locationSpan">Villanova University, Pennsylvania</p>
+                        <img class="certificateImg" id="" src="./assets/images/certificates/idTechCryptography.png">
+                  </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8" id="jackDiv">
+                     <img class="certificateImg" id="" src="./assets/images/certificates/idTechRPGTorchlight2.png">
+                 </div>
+                <div class="col s2"></div>
+            </div>
+            <!-- Media -->
+            <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s10">
+                        <h2 id="workHeader">Media</h2>
+                    </div>
+                </div>
+            <div class="row">
+                    <div class="col s2"></div>
+                    <div class="col s8" id="jackDiv">
+                            <p class="achievementTitles">Interview for Artwork</p>
+                            <i id="idTechLocation" class="small material-icons achievementLocation">location_on</i><p class="locationSpan">Orange County, CA</p>    
+                        <iframe id="youtubeVid" width="640" height="395" src="https://www.youtube.com/embed/JCPYNyB13BA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+                    </div>
+                    <div class="col s2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="scrollspy" id="projectsSection">
+        <div class="divSpacing">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align">Projects</h1>
+                    <p class="center-align description">"Leadership is working with goals and vision; management is working with objectives." - Russel L. Honoré</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row">
+                <div class="col s1"></div>
+                <div class="col s5 center-align">
+                    <div class="portfolioDiv" id="project1">
+                            <img class="portfolioPic" id="active" src="./assets/images/portfolio/IMG_2208.jpeg"> 
+                    </div>
+                </div>
+                <div class="col s5 center-align" id="project2">
+                    <div class="portfolioDiv">
+                            <img class="portfolioPic" id="active" src="./assets/images/portfolio/IMG_2210.jpeg"> 
+                    </div>
+                </div>
+                <div class="col s1 center-align"></div>
+            </div>
+            <div class="row">
+                <div class="col s1"></div>
+                <div class="col s5 center-align" id="project3">
+                    <div class="portfolioDiv">
+                            <img class="portfolioPic" src="./assets/images/portfolio/IMG_2211.jpeg">
+                    </div>
+                </div>
+                <!-- <div class="col s5 center-align" id="project4">
+                    <div class="portfolioDiv">
+                        <a href="https://chrisyforshort.github.io/TriviaGame/">
+                            <img class="screenImg" src="./assets/images/screen.png">
+                            <img class="portfolioPic" src="./assets/images/portfolio/triviaGameSS.png">
+                        </a>
+                    </div>
+                </div> -->
+                <div class="col s1 center-align"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="scrollspy" id="contactSection">
+        <div class="contactDiv">
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 center-align topicDiv">
+                    <h1 class="center-align contact">Contact</h1>
+                    <p id="contactDescription" class="center-align description">"But here's my number, so call me maybe." - Carly Rae Jepsen</p>
+                </div>
+                <div class="col s2"></div>
+            </div>
+            <div class="row" id="contactLogoRow">
+                <div class="col s2"></div>
+                <div class="col s8 center-align" id="contactDiv">
+                    <img class="contactLogos" id="gmailLogo" src="./assets/images/logos/gmail.png">
+                </div>
+                <div class="col s2 center-align">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="./assets/css/materialize/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>
